@@ -3672,59 +3672,211 @@ const allGenres = books.flatMap(book => book.genres);
 // console.log(mango.accessLevel); // "superuser"
 
 
-class User {
-  email;
+// class User {
+//   email;
 
-  constructor(email) {
-    this.email = email;
-  }
+//   constructor(email) {
+//     this.email = email;
+//   }
 
-  get email() {
-    return this.email;
-  }
+//   get email() {
+//     return this.email;
+//   }
 
-  set email(newEmail) {
-    this.email = newEmail;
-  }
-}
-class Admin extends User {
-  // Change code below this line
-  blacklistedEmails = [];
+//   set email(newEmail) {
+//     this.email = newEmail;
+//   }
+// }
+// class Admin extends User {
+//   // Change code below this line
+//   blacklistedEmails = [];
 
-  static AccessLevel = {
-    BASIC: "basic",
-    SUPERUSER: "superuser",
-  };
+//   static AccessLevel = {
+//     BASIC: "basic",
+//     SUPERUSER: "superuser",
+//   };
 
-  constructor({ email, accessLevel }) {
-    super(email);
-    this.accessLevel = accessLevel;
-  }
+//   constructor({ email, accessLevel }) {
+//     super(email);
+//     this.accessLevel = accessLevel;
+//   }
 
-  blacklist(email) { 
-    this.blacklistedEmails.push(email);
-  }
+//   blacklist(email) {
+//     this.blacklistedEmails.push(email);
+//   }
 
-  isBlacklisted(email) { 
-    for (const item of this.blacklistedEmails) {
-      if (item === email) { 
-        return true;
-      }
-      return false;
-    };
-  }
-  // Change code above this line
-}
+//   isBlacklisted(email) {
+//     for (const item of this.blacklistedEmails) {
+//       if (item === email) {
+//         return true;
+//       }
+//       return false;
+//     };
+//   }
+//   // Change code above this line
+// }
 
-const mango = new Admin({
-  email: "mango@mail.com",
-  accessLevel: Admin.AccessLevel.SUPERUSER,
-});
+// const mango = new Admin({
+//   email: "mango@mail.com",
+//   accessLevel: Admin.AccessLevel.SUPERUSER,
+// });
 
-console.log(mango.email); // "mango@mail.com"
-console.log(mango.accessLevel); // "superuser"
+// console.log(mango.email); // "mango@mail.com"
+// console.log(mango.accessLevel); // "superuser"
 
-mango.blacklist("poly@mail.com");
-console.log(mango.blacklistedEmails); // ["poly@mail.com"]
-console.log(mango.isBlacklisted("mango@mail.com")); // false
-console.log(mango.isBlacklisted("poly@mail.com")); // true
+// mango.blacklist("poly@mail.com");
+// console.log(mango.blacklistedEmails); // ["poly@mail.com"]
+// console.log(mango.isBlacklisted("mango@mail.com")); // false
+// console.log(mango.isBlacklisted("poly@mail.com")); // true
+
+
+
+/*---------------------------DOM--------------------------------*/
+
+/*----------------------МЕТОД ПОИСКА БЛОКОВ - querySelector*/
+// const text = document.querySelector("#paragraph");
+
+/*-------------------------РАБОТА С КЛАСАМИ ТЕГА  classList-----------*/
+// const text = document.querySelector("#paragraph");
+
+// console.log(text.classList); // ["text", "red", "big", value: "text red big"]
+
+// // console.log(text.classList.contains("red")); // true
+
+// // text.classList.remove("big");
+// // console.log(text.classList); // ["text", "red", value: "text red"]
+
+// // text.classList.add("new-class");
+// // console.log(text.classList); // ["text", "red", "new-class", value: "text red new-class"]
+
+// // Can add multiple classes
+// text.classList.add("a", "b", "c");
+// console.log(text.classList);
+
+// // text.classList.toggle("big"); // will add is-hidden class
+// // text.classList.toggle("is-hidden"); // will remove is-hidden class
+
+// // classList has a forEach method
+// text.classList.forEach(cls => {
+//   console.log(cls); // text, red, new-class
+// });
+
+
+/*---------------------------МЕТОД STYLE(Стлизация) ---------------------------*/
+// const button = document.querySelector(".btn");
+
+// button.style.backgroundColor = "teal";
+// button.style.fontSize = "24px";
+// button.style.textAlign = "center";
+
+// console.log(button.style); // inline styles object
+
+
+/**-----------------------------------РАБОТА С АТРИБУТАМИ ТЕГА ----*/
+// const image = document.querySelector(".image");
+
+// console.log(image.attributes); // NamedNodeMap {0: class, 1: src, 2: alt, length: 3}
+
+// console.log(image.hasAttribute("src")); // true
+
+// console.log(image.getAttribute("alt")); // "Lake and clouds"
+
+// image.setAttribute("alt", "Amazing nature");
+
+// console.log(image.getAttribute("alt")); // Amazing nature
+
+/**--------------------- DATA-АТРИБУТЫ -------------------*/
+// const saveBtn = document.querySelector('button[data-action="save"]');
+// console.log(saveBtn.dataset.action); // "save"
+
+// const closeBtn = document.querySelector('button[data-action="close"]');
+// console.log(closeBtn.dataset.action); // "close"
+
+
+/**----------------РАБОТА С ЭЛЕМЕНТАМИ ДОКУМЕНТА (ТЭГАМИ) ----------*/
+
+/**----------------------СОЗДАНИЕ------------------------------------*/
+// const heading = document.createElement("h1");
+// console.log(heading); // <h1></h1>
+
+// heading.textContent = "This is a heading";
+// console.log(heading); // <h1>This is a heading</h1>
+
+// const image = document.createElement("img");
+// image.src = "https://placeimg.com/640/480/nature";
+// image.alt = "Nature";
+// console.log(image); // <img src="https://placeimg.com/640/480/nature" alt="Nature" />
+
+/**----------------ДОБАВЛЕНИЕ ---------------------- */
+
+// const list = document.querySelector(".usernames");
+
+// // Adds an item to the end of the list
+// const lastItem = document.createElement("li");
+// lastItem.textContent = "Poly";
+// list.append(lastItem);
+
+// // Adds an item to the beginning of the list
+// const firstItem = document.createElement("li");
+// firstItem.textContent = "Ajax";
+// list.prepend(firstItem);
+
+// // Adds a title before the list
+// const title = document.createElement("h2");
+// title.textContent = "USERNAMES";
+// list.before(title);
+
+// // Adds a paragraph after the list
+// const text = document.createElement("p");
+// text.textContent =
+//   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum tenetur assumenda fugiat maxime, soluta aspernatur quasi nihil in asperiores ad distinctio illo et debitis error iure voluptate numquam maiores nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum tenetur assumenda fugiat maxime, soluta aspernatur quasi nihil in asperiores ad distinctio illo et debitis error iure voluptate numquam maiores nisi!";
+// list.after(text);
+
+/**------------------------УДАЛЕНИЕ ------------------------------- */
+// используется на свмом элементе который надо удалить
+// const text = document.querySelector('.text');
+// text.remove();
+
+
+
+/*--------------------innerHTML--------------------------------------*/
+
+
+// ---------------------------ИЗМИНЕНИЕ------------------------------
+// const technologies = ["HTML", "CSS", "JavaScript", "React", "Node"];
+// const list = document.querySelector(".list");
+
+// const markup = technologies
+//   .map((technology) => `<li class="list-item">${technology}</li>`)
+//   .join("");
+
+// // Check the console, you'll see a single string with HTML tags
+// console.log(markup);
+
+// // Adding all the markup in one operation
+// list.innerHTML = markup;
+// Используется только если элемент пустой или при полной замене содержимого
+
+// -------------------------ДОБАВЛЕНИЕ---------------------------------
+
+// const article = document.querySelector(".article");
+// const htmlString = `<p class="article-text">Nullam quis ante. Vestibulum dapibus nunc ac augue. In consectetuer turpis ut velit.</p>
+//    <a class="link" href="#">Read more...</a>`;
+
+// // Replace += with = operator. See the difference? 
+// // Article title is lost because we overwrite element content.
+// article.innerHTML += htmlString;
+
+
+/*----------------------------------Метод insertAdjacentHTML()-------------------------------*/
+
+const list = document.querySelector(".list");
+
+const newTechnologies = ["React", "TypeScript", "Node.js"];
+const markup = newTechnologies
+  .map((technology) => `<li class="list-item new">${technology}</li>`)
+  .join("");
+
+list.insertAdjacentHTML("beforeend", markup);
+list.insertAdjacentHTML("beforebegin", "<h2>Popular technologies</h2>");
+// "beforebegin" и "afterend" работают только в том случае, если elem уже находится в DOM-дереве.
