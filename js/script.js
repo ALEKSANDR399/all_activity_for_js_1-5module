@@ -3863,20 +3863,68 @@ const allGenres = books.flatMap(book => book.genres);
 // const htmlString = `<p class="article-text">Nullam quis ante. Vestibulum dapibus nunc ac augue. In consectetuer turpis ut velit.</p>
 //    <a class="link" href="#">Read more...</a>`;
 
-// // Replace += with = operator. See the difference? 
+// // Replace += with = operator. See the difference?
 // // Article title is lost because we overwrite element content.
 // article.innerHTML += htmlString;
 
 
 /*----------------------------------Метод insertAdjacentHTML()-------------------------------*/
 
-const list = document.querySelector(".list");
+// const list = document.querySelector(".list");
 
-const newTechnologies = ["React", "TypeScript", "Node.js"];
-const markup = newTechnologies
-  .map((technology) => `<li class="list-item new">${technology}</li>`)
-  .join("");
+// const newTechnologies = ["React", "TypeScript", "Node.js"];
+// const markup = newTechnologies
+//   .map((technology) => `<li class="list-item new">${technology}</li>`)
+//   .join("");
 
-list.insertAdjacentHTML("beforeend", markup);
-list.insertAdjacentHTML("beforebegin", "<h2>Popular technologies</h2>");
-// "beforebegin" и "afterend" работают только в том случае, если elem уже находится в DOM-дереве.
+// list.insertAdjacentHTML("beforeend", markup);
+// list.insertAdjacentHTML("beforebegin", "<h2>Popular technologies</h2>");
+// // "beforebegin" и "afterend" работают только в том случае, если elem уже находится в DOM-дереве.
+
+
+// function isIsogram(str){
+  
+//   let isogramma = str.split('').filter((st, index, array) =>
+//     array.indexOf(st) === index);
+  
+
+//   // for (let i = 0; i < str.length; i += 1) {
+//   //   if
+    
+//   // }
+//   return isogramma;
+// }
+
+// console.log(isIsogram("JavaScript"));
+// console.log(isIsogram("avacodecssss"));
+
+// function getCount(str) {
+//   let vowelsCount = [];
+//   const vowelsAll = "aeiou".split("");
+//   const strMassiv = str.split("");
+//   for (let i = 0; i < strMassiv.length; i+=1) {
+//     for (let j = 0; j < vowelsAll.length; j+=1) {
+//       if (str[i] === vowelsAll[j]) (
+//         vowelsCount.push(str[i])
+//       );
+      
+//     }
+    
+//   }
+//   return vowelsCount.length;
+  
+// }
+
+// console.log(getCount("Javascript"));
+// console.log(getCount("shjfsfyagfysafdfibflsabfznasfbzdfgfjk"));
+// console.log(getCount("aghsabqoaaaii"));
+
+function removeSmallest(numbers) {
+  
+  numbers.filter((it) => it !== Math.min.apply(null, numbers));
+  return throw "TODO: removeSmallest";
+  
+}
+
+console.log(removeSmallest([1, 2, 4, 1, 10, 3]));
+console.log(removeSmallest([1, 2, 2, 1, 13, 3]));
