@@ -3919,12 +3919,75 @@ const allGenres = books.flatMap(book => book.genres);
 // console.log(getCount("shjfsfyagfysafdfibflsabfznasfbzdfgfjk"));
 // console.log(getCount("aghsabqoaaaii"));
 
-function removeSmallest(numbers) {
+// function removeSmallest(numbers) {
   
-  numbers.filter((it) => it !== Math.min.apply(null, numbers));
-  return throw "TODO: removeSmallest";
+//   numbers.filter((it) => it !== Math.min.apply(null, numbers));
+//   return throw "TODO: removeSmallest";
   
-}
+// }
 
-console.log(removeSmallest([1, 2, 4, 1, 10, 3]));
-console.log(removeSmallest([1, 2, 2, 1, 13, 3]));
+// console.log(removeSmallest([1, 2, 4, 1, 10, 3]));
+// console.log(removeSmallest([1, 2, 2, 1, 13, 3]));
+
+// const singleBtn = document.querySelector("#single");
+
+// const handleClick = () => {
+//   console.log("click event listener callback");
+// };
+
+// singleBtn.addEventListener("click", handleClick);
+
+// // ===============================================
+// const multiBtn = document.querySelector("#multiple");
+
+// const firstCallback = () => {
+//   console.log("First callback!");
+// };
+// const secondCallback = () => {
+//   console.log("Second callback!");
+// };
+// const thirdCallback = () => {
+//   console.log("Third callback!");
+// };
+
+// multiBtn.addEventListener("click", firstCallback);
+// multiBtn.addEventListener("click", secondCallback);
+// multiBtn.addEventListener("click", thirdCallback);
+
+// const addListenerBtn = document.querySelector('[data-action="add"]');
+// const removeListenerBtn = document.querySelector('[data-action="remove"]');
+// const btn = document.querySelector("#btn");
+
+// const handleClick = () => {
+//   console.log("click event listener callback");
+// };
+
+// addListenerBtn.addEventListener("click", () => {
+//   btn.addEventListener("click", handleClick);
+//   console.log("click event listener was added to btn");
+// });
+
+// removeListenerBtn.addEventListener("click", () => {
+//   btn.removeEventListener("click", handleClick);
+//   console.log("click event listener was removed from btn");
+// });
+
+// const button = document.querySelector(".btn");
+
+// const handleClick = (event) => {
+//   console.log("event: ", event);
+//   console.log("event type: ", event.type);
+//   console.log("currentTarget: ", event.currentTarget);
+// };
+
+// button.addEventListener("click", handleClick);
+
+const inputText = document.querySelector('#name-input');
+const spanRewriteText = document.querySelector('#name-output');
+
+
+inputText.addEventListener('input', addNewInput);
+
+function addNewInput(event) { 
+  console.log('event :',event);
+};

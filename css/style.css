@@ -60,7 +60,7 @@
   color: tomato;
 } */
 
-body {
+/* body {
   padding: 16px;
 }
 
@@ -97,4 +97,19 @@ body {
 
 .list-item:not(:last-child) {
   margin-bottom: 8px;
+} */
+/* 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+  text-align: center;
+} */
+
+body {
+  padding: 16px;
+  text-align: center;
 }
