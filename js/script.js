@@ -3982,12 +3982,135 @@ const allGenres = books.flatMap(book => book.genres);
 
 // button.addEventListener("click", handleClick);
 
-const inputText = document.querySelector('#name-input');
-const spanRewriteText = document.querySelector('#name-output');
+// const inputText = document.querySelector('#name-input');
+// const spanRewriteText = document.querySelector('#name-output');
 
 
-inputText.addEventListener('input', addNewInput);
+// inputText.addEventListener('input', addNewInput);
 
-function addNewInput(event) { 
-  console.log('event :',event);
-};
+// function addNewInput(event) {
+//   console.log('event :',event);
+// };
+
+/** объект, 3 ключа name, cardname, total 
+ * 3 metod totalsum(), add(), writeOf()
+*/
+
+// const bank = {
+//   name: 'Jordj',
+//   cardname:' Privat',
+//   total: 3600,
+//   totalSum() {
+//     console.log(`${this.name} , balance: ${this.total}`);
+//   },
+//   add(enterSum) {
+//     this.total += enterSum;
+//     bank.totalSum.call(this);
+//   },
+//   writeOf(escapeSum) {
+//     this.total -= escapeSum;
+//     bank.totalSum.call(this);
+//   },
+// };
+
+// bank.totalSum ();
+
+
+// const Den = {
+//     name: 'Den',
+//     cardName: 'Monobank',
+//     total: 10000,
+// };
+
+// bank.totalSum.call(Den);
+
+// bank.add(1000);
+
+// bank.add.apply(Den, [5000]);
+
+// const escapeMoney = bank.writeOf.bind(Den);
+// escapeMoney(4000);
+
+//Потрібно перебрати масив і якщо він має об'єкти в яких дублюються айді то квонтіті цих елементів потрібно сплюсувати а той обє'кт який співпав видалити з масиву.
+//(Потрібно мутувати даний масив, створювати новий не потрібно)
+
+// const products = [ {
+//     id : 'sku1',
+//     qty: 1,
+// }, {
+//     id : 'sku2',
+//     qty: 2,
+// }, {
+//     id : 'sku3',
+//     qty: 3,
+// }, {
+//     id : 'sku1',
+//     qty: 6,
+// }, {
+//     id : 'sku1',
+//     qty: 8,
+// }, {
+//     id : 'sku2',
+//     qty: 19,
+// }, {
+//     id : 'sku4',
+//     qty: 1,
+//   }
+// ]
+
+
+// for (let i = 0; i < products.length; i += 1) {
+//   const firstElement = products[i];
+//   for (let j = i + 1; j < products.length; j += 1) {
+//     const secondElement = products[j];
+//     if (firstElement.id === secondElement.id) {
+//       firstElement.qty += secondElement.qty;
+//       products.splice(j, 1);
+//       j -= 1;
+//     };
+//   };
+// };
+
+// console.log(products);
+
+//задача 3 вывести всех студентов. которые учатся в гриф. или  в слизарене
+//динамически добавлять тотал сум слизарен и гриффендор
+
+const hogvarts = {
+    griffindor: [{
+            name: "Harry",
+            points: 15
+        },
+        {
+            name: "Hermiona",
+            points: 16
+        },
+        {
+            name: "Ron",
+            points: 14
+        },
+    ],
+    sliserin: [{
+            name: "Draco",
+            points: 25
+        },
+        {
+            name: "Goyl",
+            points: 40
+        },
+        {
+            name: "Crabbe",
+            points: 5
+        },
+    ],
+    allStudents (){
+},
+allPoints(){
+}
+}
+
+const griffindor = hogvarts['griffindor'];
+const sliserin = hogvarts['sliserin'];
+console.log(griffindor);
+
+
