@@ -4076,41 +4076,85 @@ const allGenres = books.flatMap(book => book.genres);
 //задача 3 вывести всех студентов. которые учатся в гриф. или  в слизарене
 //динамически добавлять тотал сум слизарен и гриффендор
 
-const hogvarts = {
-    griffindor: [{
-            name: "Harry",
-            points: 15
-        },
-        {
-            name: "Hermiona",
-            points: 16
-        },
-        {
-            name: "Ron",
-            points: 14
-        },
-    ],
-    sliserin: [{
-            name: "Draco",
-            points: 25
-        },
-        {
-            name: "Goyl",
-            points: 40
-        },
-        {
-            name: "Crabbe",
-            points: 5
-        },
-    ],
-    allStudents (){
-},
-allPoints(){
+// const hogvarts = {
+//     griffindor: [{
+//             name: "Harry",
+//             points: 15
+//         },
+//         {
+//             name: "Hermiona",
+//             points: 16
+//         },
+//         {
+//             name: "Ron",
+//             points: 14
+//         },
+//     ],
+//     sliserin: [{
+//             name: "Draco",
+//             points: 25
+//         },
+//         {
+//             name: "Goyl",
+//             points: 40
+//         },
+//         {
+//             name: "Crabbe",
+//             points: 5
+//         },
+//     ],
+//     allStudents (){
+// },
+// allPoints(){
+// }
+// }
+
+// const griffindor = hogvarts['griffindor'];
+// const sliserin = hogvarts['sliserin'];
+// console.log(griffindor);
+
+
+
+const colorPalette = document.querySelector(".color-palette");
+const output = document.querySelector(".output");
+
+colorPalette.addEventListener("click", selectColor);
+
+// This is where delegation «magic» happens
+function selectColor(event) {
+  console.log(event);
+  if (event.target.nodeName !== "BUTTON") {
+    return;
+  }
+
+  const selectedColor = event.target.dataset.color;
+  output.textContent = `Selected color: ${selectedColor}`;
+  output.style.color = selectedColor;
 }
+
+// Some helper functions to render palette items
+createPaletteItems();
+
+function createPaletteItems() {
+  const items = [];
+  for (let i = 0; i < 60; i++) {
+    const color = getRangomColor();
+    const item = document.createElement("button");
+    item.type = "button";
+    item.dataset.color = color;
+    item.style.backgroundColor = color;
+    item.classList.add("item");
+    items.push(item);
+  }
+  colorPalette.append(...items);
 }
 
-const griffindor = hogvarts['griffindor'];
-const sliserin = hogvarts['sliserin'];
-console.log(griffindor);
+function getRangomColor() {
+  return `#${getRandomHex()}${getRandomHex()}${getRandomHex()}`;
+}
 
-
+function getRandomHex() {
+  return Math.round(Math.random() * 256)
+    .toString(16)
+    .padStart(2, "0");
+}
