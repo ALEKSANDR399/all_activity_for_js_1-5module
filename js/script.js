@@ -1,7 +1,5 @@
-
 // const logins = ["terlo4", "rafter10", "ghost15"];
 // const logindToFind = "ghost15";
-
 
 // // for (let login of logins) {
 // //     console.log("Login", login);
@@ -16,17 +14,15 @@
 // // console.log(logins.includes(logindToFind));
 // console.log(message);
 
-
 // const numbers = [23, 31, 45, 2, 10, 33, 89];
 // let biggestNumber = numbers[0];
 
-
 // for (const number of numbers) {
-    
+
 //     if (number > biggestNumber) {
 //         biggestNumber = number;
 //     }
-    
+
 // }
 // console.log("biggestNumber :", biggestNumber);
 
@@ -43,9 +39,6 @@
 // for (const letter of letters) {
 //     invertorString += letter=== letter.toLowerCase() ? letter.toUpperCase() : letter.toLowerCase();
 // }
-
-
-
 
 // // for (const letter of letters) {
 // //     // console.log(letter);
@@ -78,11 +71,11 @@
 // }
 // // for (let i = 0; i < array1.length; i += 1) {
 // //     total += sum;
-   
+
 // // }
 // // for (let i = 0; i < array2.length; i += 1) {
 // //     total += array2[i];
-    
+
 // // }
 // console.log(total);
 
@@ -93,8 +86,6 @@
 //     "Карточка - 4",
 //     "Карточка - 5",
 // ];
-
-
 
 // const cardToRemove = "Карточка - 3";
 // const index = cards.indexOf(cardToRemove);
@@ -123,7 +114,7 @@
 // function calculateEngravingPrice(message, pricePerWord) {
 //    // Change code below this line
 //     // let sumPriceWords;
-    
+
 //     const totalPrice = message.splite(' ').length * pricePerWord;
 //     console.log(totalPrice);
 //     return totalPrice;
@@ -132,7 +123,7 @@
 
 //     //     sumPriceWords += word;
 //     // }
-    
+
 //     // console.log(sumPriceWords);
 
 //    // Change code above this line
@@ -151,7 +142,6 @@
 //     console.log(slug);
 //   // Change code above this line
 // }
-
 
 // slugify("English home beginer RACK");
 // function multiply() {
@@ -212,7 +202,7 @@
 // calculateTotal(10);
 // function findLongestWord(string) {
 //   // Change code below this line
-    
+
 //     let words = string.split(' ');
 //     let theLongestWord = words[0];
 // 	for (const word of words) {
@@ -242,11 +232,11 @@
 // function filterArray(numbers, value) {
 //    // Change code below this line
 //     let numbers1 =[];
-    
+
 //     for (const number of numbers) {
 //         if (number > value) {
 //             numbers1.push(number);
-            
+
 //         }
 //     }
 //     console.log(numbers1);
@@ -278,13 +268,12 @@
 // // const numbers = [23, 31, 45, 2, 10, 33, 89];
 // // let biggestNumber = numbers[0];
 
-
 // for (const number of numbers) {
-    
+
 //     if (number > biggestNumber) {
 //         biggestNumber = number;
 //     }
-    
+
 // }
 // console.log("biggestNumber :", biggestNumber);
 // function createArrayOfNumbers(start, end) {
@@ -319,7 +308,7 @@
 //   for (let i = start; i < end; i += 1) {
 //     if (i % divisor === 0) {
 //          return i;
-        
+
 //     }
 //   }
 //     console.log(i);
@@ -376,7 +365,6 @@
 // }
 // mathFunc(firstNumber,secondNumber,mathOperation);
 
-
 // const firstElement = Number(prompt("This is first element"));
 // const operation = prompt("This is operation");
 // const secondElement = Number(prompt("This is second element"));
@@ -415,17 +403,15 @@
 // }
 // calulate(firstElement, secondElement, operation)
 
-
-
 // 10 работников, выдать зарплату равную
 // function takeSalary(workers, totalSumSalary) {
 //     let workerSalary = 0;
 //     let total = 0;
 //     for (const worker of workers) {
 //         total += worker;
-        
+
 //         workerSalary = totalSumSalary / total;
-        
+
 //     }
 //     console.log('Cумма', total);
 //     console.log(workerSalary);
@@ -444,11 +430,11 @@
 // calculateTotalPrice([54, 28, 34, 45, 78, 66, 90, 25]);
 
 // function logItems(items) {
-    
+
 //     for (const item of items) {
 //         console.log(item);
 //     }
-   
+
 // }
 // logItems(["den", "bred", "flibus"]);
 // logItems([1, 2, 3, 4, 5, 6, ]);
@@ -516,17 +502,15 @@
 // fn(10, 20, 30, 40, 50);
 // fn(3, 4, 5, 6, 7, 8, 9);
 
-
 // современный синтаксис
 // const fn = function (...arg) {
-    
+
 //     console.log(arg);
 // }
 
 // fn(1, 2, 3);
 // fn(10, 20, 30, 40, 50);
 // fn(3, 4, 5, 6, 7, 8, 9);
-
 
 // // если есть разнотипные элементы
 // const fn = function (a, b, c, ...arg) {
@@ -567,7 +551,6 @@
 // filterNumbers([25, 30, 35, 40], 118, 32, 30, 40, 50);
 // filterNumbers([100, 200, 300, 400, 500], 10, 200, 30, 40, 50);
 
-
 // const parabola = prompt("Hren Petrovich");
 // console.log(parabola);
 
@@ -581,7 +564,6 @@
 // for (const client of clients) {
 //   console.log(client);
 // }
-
 
 // const a = [1, 2, 3, 4, 5, 6];
 // const b = [10, 20, 30, 40, 50, 60];
@@ -632,10 +614,10 @@
 // for (const element of all) {
 //     const itsVegetabl = vegetables.includes(element);
 //     if (!itsVegetabl) {
-       
+
 //         fruits.push(element);
 //     }
-        
+
 // }
 
 // for (const element of all) {
@@ -704,7 +686,6 @@
 // const magicNew = magicSplit.join("");
 // console.log(magicNew);
 
-
 // проверка на NaN!!!!!
 // const number = Number('123nsn');
 // console.log(isNaN(number)
@@ -714,7 +695,7 @@
 // const restart = [];
 
 // for (const number of numArray) {
-    
+
 //     if (!number) {
 //         continue;
 //     }
@@ -745,7 +726,6 @@
 
 // console.log(resArray);
 
-
 // процент от числа
 // const number = [1, 5, 6, 8, 8, 24, 35, 10];
 
@@ -758,12 +738,11 @@
 // }
 // myFunction(number);
 
-
 // поиск названия карты и суммы денег
 // function mycard(cardName, cardArrey, initialSum) {
 //     const hasCard = cardArrey.includes(cardName)
 //     console.log(hasCard)
-    
+
 //     if (!hasCard) {
 //         alert("карта не найдена")
 //         const re_Input = prompt("Введите еще раз ")
@@ -777,8 +756,6 @@
 //         return total
 //     }
 
-    
-    
 //  }
 
 // const result = mycard(input, cards, 500)
@@ -799,9 +776,9 @@
 //     for (let i = 0; i < numArray.length; i+= 1) {
 //         for (let i = 0; i < sortArray.length; i+=1) {
 //             if
-            
+
 //         }
-        
+
 //     }
 // }
 // console.log(numArray);
@@ -849,7 +826,6 @@
 //     console.log(apartment.owner[key]);
 // }
 
-
 // Функция собирающая числа и сортирующая их в массиве
 // const length = Number(prompt('Введите длину массива'));
 // const start = Number(prompt('Введите начало массива'));
@@ -894,11 +870,11 @@
 //         console.log(friend);
 //         console.log(friend.name === name);
 //         if (friend.name === name) {
-            
+
 //          return console.log(`пользователь ${name} найден`);
 //         }
 //     }
-    
+
 // }
 
 // findFrindsName(friends, "Brad");
@@ -909,7 +885,7 @@
 //     const masivName = [];
 //     for (const friend of friends) {
 //         masivName.push(friend.name);
-    
+
 //     }
 //     return masivName;
 // }
@@ -924,7 +900,7 @@
 //         if (friend.online) {
 //             masivName.push(friend.name);
 //         }
-            
+
 //     }
 //     return masivName;
 // }
@@ -936,11 +912,11 @@
 //     const newMasiv = [];
 //     for (const friend of friends) {
 //         // console.log(friend);
-        
+
 //         if (friend.online) {
 //             newMasiv.push(friend);
 //         }
-           
+
 //     }
 //     return newMasiv;
 // }
@@ -952,11 +928,11 @@
 //     const newMasiv = [];
 //     for (const friend of friends) {
 //         // console.log(friend);
-        
+
 //         if (!friend.online) {
 //             newMasiv.push(friend);
 //         }
-           
+
 //     }
 //     return newMasiv;
 // }
@@ -970,15 +946,14 @@
 //         ofline:[],
 //     };
 
-
 //     for (const friend of friends) {
 //         // console.log(friend);
-        
+
 //         if (friend.online) {
 //             newMasiv.online.push(friend);
 //             continue;
 //         }
-       
+
 //         newMasiv.ofline.push(friend);
 
 //         // тоже с помощью тернарника
@@ -989,7 +964,6 @@
 // }
 
 // console.log(getOnlineFriends(friends));
-
 
 // как найти количество свойств объекта
 // const x = {
@@ -1016,9 +990,9 @@
 //     name: "Artur",
 //     age: 30,
 //     "adress city": true
-   
+
 // }
- 
+
 // console.log(frt["adress city"]);
 
 // const charodei = {};
@@ -1032,7 +1006,6 @@
 
 // console.log(charodei);
 
-
 // const apartment = {
 //   descr: "Spacious apartment in the city center",
 //   rating: 4,
@@ -1044,31 +1017,29 @@
 // const keys = [];
 // const values = [];
 // for (const key in apartment) {
-    
+
 //     if (key) {
 //         keys.push(key);
 //     }
-    
+
 //     values.push(apartment[key]);
-         
+
 // }
 // console.log(keys);
 // console.log(values);
 
 // function countProps(object) {
 //     let propCount = 0;
-    
+
 //     for (const key in object) {
 //       if (object.hasOwnProperty(key)) {
 //       propCount += 1;
 //      }
 //     }
 
-    
-   
 //         // propCount += Object.keys(object).length;
 //     console.log(propCount);
-  
+
 //   return propCount;
 // }
 
@@ -1088,10 +1059,9 @@
 // console.log(keys);
 // for (const key of keys) {
 //     values.push(apartment[key]);
-    
+
 // }
 // console.log(values);
-
 
 // const book = {
 //   author: "Bernard Cornwell",
@@ -1134,7 +1104,7 @@
 // const rgbColors = [];
 
 // for (const color of colors) {
-    
+
 //      hexColors.push(color.hex);
 //     rgbColors.push(color.rgb);
 // }
@@ -1169,16 +1139,16 @@
 // //            null
 // //            break;
 // //    }
-    
+
 //     for (const product of products) {
 //         if (product.name === productName) {
 //             price = product.price;
 //             break;
 //         }
 //             price = null;
-        
+
 //     }
- 
+
 //     console.log(price);
 //     return price;
 //   // Change code above this line
@@ -1210,10 +1180,10 @@
 //         }
 //         ;
 //     }
-    
+
 //     console.log(propResult);
 //     return propResult;
-    
+
 //   // Change code above this line
 // }
 
@@ -1236,7 +1206,7 @@
 //         if (product.name === productName) {
 //             totalPrice = (product.price * product.quantity);
 //         }
-        
+
 //     }
 //     console.log(totalPrice);
 //     return totalPrice;
@@ -1326,11 +1296,9 @@
 //     let newData = {};
 //     let newDataSecond = {};
 
-
 //     if (text === undefined) {
 //         return newData = { category, priority, completed };
 //     }
-     
 
 //     return newData = { text, category, priority, completed};
 
@@ -1348,7 +1316,7 @@
 //   }
 
 //   return total;
-  
+
 // }
 
 // console.log(addOverNum(50, 10, 15));
@@ -1362,7 +1330,7 @@
 //         if (firstArgs.includes(arg))
 //             matches.push(arg);
 //     }
-    
+
 //   // Change code above this line
 //   return matches;
 // }
@@ -1390,7 +1358,6 @@
 // console.log(bookShelf.removeBook("Red sunset"));
 // console.log(bookShelf.updateBook("Sands of dune", "Dune"));
 
-
 // const bookShelf = {
 //   books: ["Последнее королевство"],
 //   getBooks() {
@@ -1417,7 +1384,7 @@
 //   potions: ["Speed potion", "Dragon breath", "Stone skin"],
 //   // Change code below this line
 //     getPotions(potions) {
-        
+
 //         return this.potions;
 //      },
 //   // Change code above this line
@@ -1436,19 +1403,19 @@
 // //   },
 //     addPotion(newPotion) {
 //         const { name, price,} = newPotion;
-        
+
 //         for (const potion of this.potions) {
 //            if (name === potion.name) {
 //                return `Error! Potion ${[name]} is already in your inventory!`;
 //             }
 //         }
-         
+
 //          this.potions.push(newPotion);
 //         return this.potions;
-            
-    // },
+
+// },
 //     removePotion(potionName) {
-        
+
 //         for (const potion of this.potions) {
 //             if (potionName === potion.name) {
 //                 const potionIndex = this.potions.indexOf(potion);
@@ -1456,11 +1423,10 @@
 //                 return this.potions;
 //             }
 //         }
-        
-   
+
 //   },
 //     updatePotionName(oldName, newName) {
-      
+
 //             for (const potion of this.potions) {
 //                 if (oldName === potion.name) {
 //                     potion.name = newName;
@@ -1469,9 +1435,9 @@
 //                     // this.potions.splice(potionIndex, 1, newName);
 //                     return this.potions;
 //                 };
-                
+
 //         };
-    
+
 //     // const potionIndex = this.potions.indexOf(oldName);
 
 //     // if (potionIndex === -1) {
@@ -1480,7 +1446,7 @@
 
 //     // this.potions.splice(potionIndex, 1, newName);
 //   },
-  // Change code above this line
+// Change code above this line
 // };
 
 // console.log(atTheOldToad.getPotions());
@@ -1491,7 +1457,6 @@
 // console.log(atTheOldToad.removePotion("Stone skin"));
 // console.log(atTheOldToad.updatePotionName("Dragon breath", "Polymorth"));
 // console.log(atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion"));
-
 
 // const numbers = [5, 10, 15, 20, 25];
 
@@ -1586,7 +1551,6 @@
 // console.log(pizzaPalace.order('Big Mike', makePizza, onOrderError));
 // console.log(pizzaPalace.order('Vienna', makePizza, onOrderError));
 
-
 // // forEach
 // // Перебирающий forEach
 // const numbers = [5, 10, 15, 20, 25];
@@ -1615,7 +1579,7 @@
 //             filteredNumbers.push(number);
 //         };
 //     });
-    
+
 // //   for (let i = 0; i < numbers.length; i += 1) {
 // //     if (numbers[i] > value) {
 // //       filteredNumbers.push(numbers[i]);
@@ -1637,8 +1601,6 @@
 //       commonElements.push(array);
 //     }
 //   });
-    
-  
 
 //   return commonElements;
 //   // Change code above this line
@@ -1652,8 +1614,6 @@
 //   let totalPrice = 0;
 
 //   orderedItems.forEach((item) => totalPrice += item);
-    
-  
 
 //   return totalPrice;
 // }
@@ -1703,9 +1663,9 @@
 //      (number % 2 === 0)
 //     ?newChangeEven.push(number + value)
 //     :newChangeEven.push(number );
-  
+
 //   });
-  
+
 //   return newChangeEven;
 //   // for (let i = 0; i < numbers.length; i += 1) {
 //   //   if (numbers[i] % 2 === 0) {
@@ -1718,7 +1678,6 @@
 // const planets = ["Earth", "Mars", "Venus", "Jupiter"];
 // // Change code below this line
 // const planetsLengths = planets.map(planet => planet.length);
-
 
 // console.log(planetsLengths);
 
@@ -1751,160 +1710,159 @@
 // ];
 // // Change code below this line
 // const titles = books.map(book => book.title);
-// console.log(titles); 
+// console.log(titles);
+// {
+//   const books = [
+//     {
+//       title: "The Last Kingdom",
+//       author: "Bernard Cornwell",
+//       genres: ["adventure", "history"],
+//     },
+//     {
+//       title: "Beside Still Waters",
+//       author: "Robert Sheckley",
+//       genres: ["fiction"],
+//     },
+//     {
+//       title: "Redder Than Blood",
+//       author: "Tanith Lee",
+//       genres: ["horror", "mysticism"],
+//     },
+//   ];
+//   // Change code below this line
+
+//   const genres = books.flatMap((book) => book.genres);
+//   // console.log(genres);
+// }
+
+// {
+//   const users = [
+//     {
+//       name: "Moore Hensley",
+//       email: "moorehensley@indexia.com",
+//       eyeColor: "blue",
+//       friends: ["Sharron Pace"],
+//       isActive: false,
+//       balance: 2811,
+//       skills: ["ipsum", "lorem"],
+//       gender: "male",
+//       age: 37,
+//     },
+//     {
+//       name: "Sharlene Bush",
+//       email: "sharlenebush@tubesys.com",
+//       eyeColor: "blue",
+//       friends: ["Briana Decker", "Sharron Pace"],
+//       isActive: true,
+//       balance: 3821,
+//       skills: ["tempor", "mollit", "commodo", "veniam", "laborum"],
+//       gender: "female",
+//       age: 34,
+//     },
+//     {
+//       name: "Ross Vazquez",
+//       email: "rossvazquez@xinware.com",
+//       eyeColor: "green",
+//       friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//       isActive: false,
+//       balance: 3793,
+//       skills: ["nulla", "anim", "proident", "ipsum", "elit"],
+//       gender: "male",
+//       age: 24,
+//     },
+//     {
+//       name: "Elma Head",
+//       email: "elmahead@omatom.com",
+//       eyeColor: "green",
+//       friends: ["Goldie Gentry", "Aisha Tran"],
+//       isActive: true,
+//       balance: 2278,
+//       skills: ["adipisicing", "irure", "velit"],
+//       gender: "female",
+//       age: 21,
+//     },
+//     {
+//       name: "Carey Barr",
+//       email: "careybarr@nurali.com",
+//       eyeColor: "blue",
+//       friends: ["Jordan Sampson", "Eddie Strong"],
+//       isActive: true,
+//       balance: 3951,
+//       skills: ["ex", "culpa", "nostrud"],
+//       gender: "male",
+//       age: 27,
+//     },
+//     {
+//       name: "Blackburn Dotson",
+//       email: "blackburndotson@furnigeer.com",
+//       eyeColor: "brown",
+//       friends: ["Jacklyn Lucas", "Linda Chapman"],
+//       isActive: false,
+//       balance: 1498,
+//       skills: ["non", "amet", "ipsum"],
+//       gender: "male",
+//       age: 38,
+//     },
+//     {
+//       name: "Sheree Anthony",
+//       email: "shereeanthony@kog.com",
+//       eyeColor: "brown",
+//       friends: ["Goldie Gentry", "Briana Decker"],
+//       isActive: true,
+//       balance: 2764,
+//       skills: ["lorem", "veniam", "culpa"],
+//       gender: "female",
+//       age: 39,
+//     },
+//   ];
+//   const getUserNames = (users) => {
+//     return users.map((user) => user.name);
+//   };
+//   // console.log(getUserNames(users));
+// }
+
+// {
+//   const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
+//   // Change code below this line
+
+//   const evenNumbers = numbers.filter((number) => number % 2 === 0);
+//   const oddNumbers = numbers.filter((number) => number % 2 !== 0);
+//   // console.log(evenNumbers);
+//   // console.log(oddNumbers);
+// }
+// {
+//   const books = [
+//     {
+//       title: "The Last Kingdom",
+//       author: "Bernard Cornwell",
+//       genres: ["adventure", "history"],
+//     },
+//     {
+//       title: "Beside Still Waters",
+//       author: "Robert Sheckley",
+//       genres: ["fiction", "mysticism"],
+//     },
+//     {
+//       title: "Redder Than Blood",
+//       author: "Tanith Lee",
+//       genres: ["horror", "mysticism", "adventure"],
+//     },
+//   ];
+//   // Change code below this line
+//   const allGenres = books.flatMap((book) => book.genres);
+//   const uniqueGenres = allGenres.filter(
+//     (genre, index, array) => array.indexOf(genre) === index
+//   );
+// console.log(allGenres);
+// console.log(uniqueGenres);
+// }
+
 {
-  const books = [
-  {
-    title: "The Last Kingdom",
-    author: "Bernard Cornwell",
-    genres: ["adventure", "history"],
-  },
-  {
-    title: "Beside Still Waters",
-    author: "Robert Sheckley",
-    genres: ["fiction"],
-  },
-  {
-    title: "Redder Than Blood",
-    author: "Tanith Lee",
-    genres: ["horror", "mysticism"],
-  },
-];
-// Change code below this line
-
-const genres = books.flatMap(book => book.genres);
-// console.log(genres);
-}
-
-{
-  const users = [
-  {
-    name: "Moore Hensley",
-    email: "moorehensley@indexia.com",
-    eyeColor: "blue",
-    friends: ["Sharron Pace"],
-    isActive: false,
-    balance: 2811,
-    skills: ["ipsum", "lorem"],
-    gender: "male",
-    age: 37,
-  },
-  {
-    name: "Sharlene Bush",
-    email: "sharlenebush@tubesys.com",
-    eyeColor: "blue",
-    friends: ["Briana Decker", "Sharron Pace"],
-    isActive: true,
-    balance: 3821,
-    skills: ["tempor", "mollit", "commodo", "veniam", "laborum"],
-    gender: "female",
-    age: 34,
-  },
-  {
-    name: "Ross Vazquez",
-    email: "rossvazquez@xinware.com",
-    eyeColor: "green",
-    friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
-    isActive: false,
-    balance: 3793,
-    skills: ["nulla", "anim", "proident", "ipsum", "elit"],
-    gender: "male",
-    age: 24,
-  },
-  {
-    name: "Elma Head",
-    email: "elmahead@omatom.com",
-    eyeColor: "green",
-    friends: ["Goldie Gentry", "Aisha Tran"],
-    isActive: true,
-    balance: 2278,
-    skills: ["adipisicing", "irure", "velit"],
-    gender: "female",
-    age: 21,
-  },
-  {
-    name: "Carey Barr",
-    email: "careybarr@nurali.com",
-    eyeColor: "blue",
-    friends: ["Jordan Sampson", "Eddie Strong"],
-    isActive: true,
-    balance: 3951,
-    skills: ["ex", "culpa", "nostrud"],
-    gender: "male",
-    age: 27,
-  },
-  {
-    name: "Blackburn Dotson",
-    email: "blackburndotson@furnigeer.com",
-    eyeColor: "brown",
-    friends: ["Jacklyn Lucas", "Linda Chapman"],
-    isActive: false,
-    balance: 1498,
-    skills: ["non", "amet", "ipsum"],
-    gender: "male",
-    age: 38,
-  },
-  {
-    name: "Sheree Anthony",
-    email: "shereeanthony@kog.com",
-    eyeColor: "brown",
-    friends: ["Goldie Gentry", "Briana Decker"],
-    isActive: true,
-    balance: 2764,
-    skills: ["lorem", "veniam", "culpa"],
-    gender: "female",
-    age: 39,
-  },
-];
-  const getUserNames = users => {
-    
-    
-    return users.map(user => user.name);
-  };
-// console.log(getUserNames(users));
-}
-
-{const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
-// Change code below this line
-
-const evenNumbers = numbers.filter(number => number % 2 ===0);
-const oddNumbers = numbers.filter(number => number % 2 !== 0);
-// console.log(evenNumbers);
-// console.log(oddNumbers);
-}
-{
-const books = [
-  {
-    title: "The Last Kingdom",
-    author: "Bernard Cornwell",
-    genres: ["adventure", "history"],
-  },
-  {
-    title: "Beside Still Waters",
-    author: "Robert Sheckley",
-    genres: ["fiction", "mysticism"],
-  },
-  {
-    title: "Redder Than Blood",
-    author: "Tanith Lee",
-    genres: ["horror", "mysticism", "adventure"],
-  },
-];
-// Change code below this line
-const allGenres = books.flatMap(book => book.genres);
-  const uniqueGenres = allGenres.filter((genre, index, array) => array.indexOf(genre) === index);
-  // console.log(allGenres);
-  // console.log(uniqueGenres);
-}
-
-{
-//   const students = ["Вика", "Андрей", "Олег", "Юля", "Борис", "Катя"];
-
-// const inAlphabetOrder = [...students].sort((a, b) => a.localeCompare(b));
-// console.log(inAlphabetOrder); // ['Андрей', 'Борис', 'Вика', 'Катя', 'Олег', 'Юля']
-
-// const inReversedOrder = [...students].sort((a, b) => b.localeCompare(a));
-// console.log(inReversedOrder); // ['Юля', 'Олег', 'Катя', 'Вика', 'Борис', 'Андрей']
+  //   const students = ["Вика", "Андрей", "Олег", "Юля", "Борис", "Катя"];
+  // const inAlphabetOrder = [...students].sort((a, b) => a.localeCompare(b));
+  // console.log(inAlphabetOrder); // ['Андрей', 'Борис', 'Вика', 'Катя', 'Олег', 'Юля']
+  // const inReversedOrder = [...students].sort((a, b) => b.localeCompare(a));
+  // console.log(inReversedOrder); // ['Юля', 'Олег', 'Катя', 'Вика', 'Борис', 'Андрей']
 }
 
 // {
@@ -1916,7 +1874,7 @@ const allGenres = books.flatMap(book => book.genres);
 // ];
 
 // const inAscendingScoreOrder = students.sort((firstStudent, secondStudent) => firstStudent.name - secondStudent.name
-  
+
 // );
 
 // const inDescendingScoreOrder = students.sort(
@@ -1926,7 +1884,7 @@ const allGenres = books.flatMap(book => book.genres);
 // const inAlphabeticalOrder = students.sort((firstStudent, secondStudent) =>
 //   secondStudent.score.localeCompare(firstStudent.score)
 //   );
-  
+
 //   // console.log(inAscendingScoreOrder);
 //   // console.log(inDescendingScoreOrder);
 //   // console.log(inAlphabeticalOrder);
@@ -2036,13 +1994,12 @@ const allGenres = books.flatMap(book => book.genres);
 // ]
 
 // const getUsersWithEyeColor = (users, color) => {
-  
+
 //   const colorForObj = users.filter(user => user.eyeColor === color);
 
 //   // .map(user => user.name)
 //   return colorForObj;
- 
-  
+
 // };
 
 // console.log(getUsersWithEyeColor(users, "brown"));
@@ -2205,12 +2162,11 @@ const allGenres = books.flatMap(book => book.genres);
 // const getUsersWithFriend = (users, friendName) => {
 //   const friendsOfName = users.filter(
 //     user => user.friends.includes(friendName));
-  
+
 //   return friendsOfName;
 // };
 // // console.log(getUsersWithFriend(users, "Sheree Anthony"));
 // console.log(getUsersWithFriend(users, "Goldie Gentry"));
-
 
 // const users = [
 //   {
@@ -2286,15 +2242,13 @@ const allGenres = books.flatMap(book => book.genres);
 // ]
 // const getFriends = (users) => {
 //   const allMasive = users.flatMap(user => user.friends);
-  
+
 //   const masivFriends = allMasive.filter(
 //     (user, index, array) => array.indexOf(user) === index
 //   );
 //   return masivFriends;
 // };
 // console.log(getFriends(users));
-
-
 
 // const users = [
 //   {
@@ -2475,7 +2429,6 @@ const allGenres = books.flatMap(book => book.genres);
 // };
 // console.log(getUserWithEmail(users, "shereeanthony@kog.com"));
 
-
 // const firstArray = [26, 94, 36, 18];
 // const secondArray = [17, 61, 23];
 // const thirdArray = [17, 26, 94, 61, 36, 23, 18];
@@ -2496,8 +2449,6 @@ const allGenres = books.flatMap(book => book.genres);
 // console.log(eachElementInSecondIsOdd);
 // console.log(eachElementInThirdIsEven);
 // console.log(eachElementInThirdIsOdd);
-
-
 
 // const users = [
 //   {
@@ -2570,7 +2521,6 @@ const allGenres = books.flatMap(book => book.genres);
 // };
 // console.log(isEveryUserActive(users));
 
-
 // const firstArray = [26, 94, 36, 18];
 // const secondArray = [17, 61, 23];
 // const thirdArray = [17, 26, 94, 61, 36, 23, 18];
@@ -2591,8 +2541,6 @@ const allGenres = books.flatMap(book => book.genres);
 // console.log(anyElementInSecondIsOdd);
 // console.log(anyElementInThirdIsEven);
 // console.log(anyElementInThirdIsOdd);
-
-
 
 // const users = [
 //   {
@@ -2667,8 +2615,6 @@ const allGenres = books.flatMap(book => book.genres);
 
 // console.log(isAnyUserActive(users));
 
-
-
 // const players = {
 //   mango: 1270,
 //   poly: 468,
@@ -2696,9 +2642,9 @@ const allGenres = books.flatMap(book => book.genres);
 // // // Change code below this line
 
 // const totalAveragePlaytimePerGame = players.reduce((total, player) => {
-  
+
 //   return total + (player.playtime/player.gamesPlayed);
-  
+
 // }, 0);
 
 // console.log(totalAveragePlaytimePerGame);
@@ -2708,8 +2654,6 @@ const allGenres = books.flatMap(book => book.genres);
 // }, 0);
 
 // console.log(total);
-
-
 
 // const users = [
 //   {
@@ -2852,7 +2796,7 @@ const allGenres = books.flatMap(book => book.genres);
 // ]
 
 // const getTotalFriendCount = users => {
-  
+
 //   // const masivFriends = users.flatMap(user => user.friends);
 //   // console.log(masivFriends);
 //   const totalMasivFriends = users.reduce((total, user) => {
@@ -2870,14 +2814,12 @@ const allGenres = books.flatMap(book => book.genres);
 //   "Fyodor Dostoevsky",
 // ];
 
-
 // const ascendingReleaseDates = [...releaseDates].sort();
 
 // const alphabeticalAuthors = [...authors].sort();
 
 // console.log(ascendingReleaseDates);
 // console.log(alphabeticalAuthors);
-
 
 // const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
 // // Change code below this line
@@ -2886,10 +2828,8 @@ const allGenres = books.flatMap(book => book.genres);
 
 // const descendingReleaseDates = [...releaseDates].sort((firstNumber, secondNumber) => secondNumber - firstNumber);
 
-
 // console.log(ascendingReleaseDates);
 // console.log(descendingReleaseDates);
-
 
 // const authors = [
 //   "Tanith Lee",
@@ -2927,7 +2867,6 @@ const allGenres = books.flatMap(book => book.genres);
 //   { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
 // ];
 
-
 // const sortedByAuthorName = [...books].sort((firstAuthor, secondAuthor)=> (firstAuthor.author).localeCompare(secondAuthor.author));
 
 // const sortedByReversedAuthorName = [...books].sort((firstAuthor, secondAuthor)=> (secondAuthor.author).localeCompare(firstAuthor.author));
@@ -2940,7 +2879,6 @@ const allGenres = books.flatMap(book => book.genres);
 // console.log(sortedByReversedAuthorName);
 // console.log(sortedByAscendingRating);
 // console.log(sortedByDescentingRating);
-
 
 // const users = [
 //   {
@@ -3014,7 +2952,6 @@ const allGenres = books.flatMap(book => book.genres);
 // };
 // console.log(sortByAscendingBalance(users));
 
-
 // const users = [
 //   {
 //     name: "Moore Hensley",
@@ -3081,22 +3018,19 @@ const allGenres = books.flatMap(book => book.genres);
 //   }
 // ]
 // const sortByDescendingFriendCount = users => {
-  
+
 //   const sortFriends = [...users].sort((firstFriends, secondFriends) => secondFriends.friends.length - firstFriends.friends.length);
-  
+
 //   return sortFriends;
 // };
 
 // console.log(sortByDescendingFriendCount(users));
-
-
 
 // const sortByName = users => {
 //   const sortForName = [...users].sort((firstName, secondName) => firstName.name.localeCompare(secondName.name));
 //   return sortForName;
 // };
 // console.log(sortByName(users));
-
 
 // const books = [
 //   {
@@ -3129,10 +3063,9 @@ const allGenres = books.flatMap(book => book.genres);
 // const names = books.filter(book => book.rating > MIN_BOOK_RATING).map(book => book.author).sort();
 // console.log(names);
 
-
 // const getNamesSortedByFriendCount = users => {
 //   const names = [...users].sort((firstPlaceFriends, secondPlaceFriends) => firstPlaceFriends.friends.length - secondPlaceFriends.friends.length).map(user => user.name);
-  
+
 //   return names;
 // };
 
@@ -3145,13 +3078,10 @@ const allGenres = books.flatMap(book => book.genres);
 
 // console.log(getSortedFriends(users));
 
-
 // const getTotalBalanceByGender = (users, gender) => {
 //   const totalBalance = users.filter(user => user.gender === gender).sort((firstStudent, secondStudent) =>
 //   firstStudent.name.localeCompare(secondStudent.name)).reduce((total, user) => {return total +  user.balance}, 0);
-  
-  
-  
+
 //   return totalBalance;
 // };
 
@@ -3171,13 +3101,11 @@ const allGenres = books.flatMap(book => book.genres);
 //   // : 0);
 //   // console.log(!!friend.age);
 
-
 //   // if (!!friend.age) {
 //   //   return total + friend.age;
 //   // }
 //   // return total;
-  
-  
+
 // }, 0);
 
 // const totalAge = friends.reduce((total, { age = 0 }) => total + age, 0);
@@ -3208,10 +3136,9 @@ const allGenres = books.flatMap(book => book.genres);
 // })
 // console.log(filterCars);
 
-
 // const pizzaPalace = {
 //   pizzas: ["Supercheese", "Smoked", "Four meats"],
- 
+
 //   checkPizza(pizzaName) {
 //     return this.pizzas.includes(pizzaName);
 //   },
@@ -3224,12 +3151,11 @@ const allGenres = books.flatMap(book => book.genres);
 
 //     return `Order accepted, preparing «${pizzaName}» pizza`;
 //   },
-  
+
 // };
 
 // console.log(pizzaPalace.checkPizza("Four meats"));
 // console.log(pizzaPalace.order("margaritta"));
-
 
 // const customer = {
 //   username: "Mango",
@@ -3262,7 +3188,6 @@ const allGenres = books.flatMap(book => book.genres);
 // console.log(customer.getBalance()); // 19750
 // console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
 
-
 // const historyService = {
 //   orders: [
 //     { email: "jacob@hotmail.com", dish: "Burrito" },
@@ -3291,7 +3216,6 @@ const allGenres = books.flatMap(book => book.genres);
 // console.log(historyService.getOrdersLog());
 // console.log(historyService.getEmails());
 // console.log(historyService.getOrdersByEmail());
-
 
 // Прототипы объекта для другого объекта
 // Объекты можно организовать в цепочки так, чтобы свойство не найденное в одном объекте, автоматически искалось бы в другом. Связующим звеном выступает специальное скрытое свойство [[Prototype]], которое в консоли браузера отображается как __proto__.
@@ -3326,13 +3250,11 @@ const allGenres = books.flatMap(book => book.genres);
 // parent.age = 54;
 // console.log(parent);
 
-
 // const child = Object.create(parent);
 // child.name = "Jason";
 // child.age = 27;
 
 // console.log(child);
-
 
 // class Car {
 
@@ -3356,15 +3278,13 @@ const allGenres = books.flatMap(book => book.genres);
 // 	getPrice(){
 //     return this.price;
 //     }
-  
+
 //   	changePrice(newPrice){
 //     return this.price = newPrice;
 //     }
 
-
 //   // Change code above this line
 // }
-
 
 // class Storage {
 
@@ -3405,10 +3325,10 @@ const allGenres = books.flatMap(book => book.genres);
 //   }
 
 //   padStart(newStartValue) {
-    
+
 //      this.value = newStartValue + this.value;
 //   }
-  
+
 //   padEnd(newEndValue) {
 //      this.value = this.value + newEndValue;
 //   }
@@ -3427,18 +3347,15 @@ const allGenres = books.flatMap(book => book.genres);
 // builder.padBoth("=");
 // console.log(builder.getValue()); // "=^.^="
 
-
-
-
 // class Car {
-  
+
 //   #brand;
 //   constructor({ brand, model, price }) {
 //     this.#brand = brand;
 //     this.model = model;
 //     this.price = price;
 //   }
-   
+
 //   getBrand() {
 //     return this.#brand;
 //   }
@@ -3446,9 +3363,8 @@ const allGenres = books.flatMap(book => book.genres);
 //   changeBrand(newBrand) {
 //     this.#brand = newBrand;
 //   }
-  
-// }
 
+// }
 
 // class Storage {
 //   // Change code below this line
@@ -3513,7 +3429,6 @@ const allGenres = books.flatMap(book => book.genres);
 // builder.padBoth("=");
 // console.log(builder.getValue()); // "=^.^="
 
-
 // class Car {
 //   // Change code below this line
 //   #brand;
@@ -3550,8 +3465,6 @@ const allGenres = books.flatMap(book => book.genres);
 //   // Change code above this line
 // }
 
-
-
 // class Car {
 //   // Change code below this line
 //   static MAX_PRICE = 50000;
@@ -3584,7 +3497,6 @@ const allGenres = books.flatMap(book => book.genres);
 // audi.price = 51000;
 // console.log(audi.price); // 49000
 
-
 // class Car {
 //   static #MAX_PRICE = 50000;
 //   // Change code below this line
@@ -3595,7 +3507,7 @@ const allGenres = books.flatMap(book => book.genres);
 //     else {
 //       return `Success! Price is within acceptable limits`;
 //     }
-    
+
 //   }
 //   // Change code above this line
 //   constructor({ price }) {
@@ -3608,7 +3520,6 @@ const allGenres = books.flatMap(book => book.genres);
 
 // console.log(Car.checkPrice(audi.price)); // "Success! Price is within acceptable limits"
 // console.log(Car.checkPrice(bmw.price)); // "Error! Price exceeds the maximum"
-
 
 // class User {
 //   constructor(email) {
@@ -3630,7 +3541,6 @@ const allGenres = books.flatMap(book => book.genres);
 //     SUPERUSER: "superuser"
 //   }
 // }
-
 
 // class User {
 //   email;
@@ -3670,7 +3580,6 @@ const allGenres = books.flatMap(book => book.genres);
 
 // console.log(mango.email); // "mango@mail.com"
 // console.log(mango.accessLevel); // "superuser"
-
 
 // class User {
 //   email;
@@ -3729,8 +3638,6 @@ const allGenres = books.flatMap(book => book.genres);
 // console.log(mango.isBlacklisted("mango@mail.com")); // false
 // console.log(mango.isBlacklisted("poly@mail.com")); // true
 
-
-
 /*---------------------------DOM--------------------------------*/
 
 /*----------------------МЕТОД ПОИСКА БЛОКОВ - querySelector*/
@@ -3761,7 +3668,6 @@ const allGenres = books.flatMap(book => book.genres);
 //   console.log(cls); // text, red, new-class
 // });
 
-
 /*---------------------------МЕТОД STYLE(Стлизация) ---------------------------*/
 // const button = document.querySelector(".btn");
 
@@ -3770,7 +3676,6 @@ const allGenres = books.flatMap(book => book.genres);
 // button.style.textAlign = "center";
 
 // console.log(button.style); // inline styles object
-
 
 /**-----------------------------------РАБОТА С АТРИБУТАМИ ТЕГА ----*/
 // const image = document.querySelector(".image");
@@ -3791,7 +3696,6 @@ const allGenres = books.flatMap(book => book.genres);
 
 // const closeBtn = document.querySelector('button[data-action="close"]');
 // console.log(closeBtn.dataset.action); // "close"
-
 
 /**----------------РАБОТА С ЭЛЕМЕНТАМИ ДОКУМЕНТА (ТЭГАМИ) ----------*/
 
@@ -3837,10 +3741,7 @@ const allGenres = books.flatMap(book => book.genres);
 // const text = document.querySelector('.text');
 // text.remove();
 
-
-
 /*--------------------innerHTML--------------------------------------*/
-
 
 // ---------------------------ИЗМИНЕНИЕ------------------------------
 // const technologies = ["HTML", "CSS", "JavaScript", "React", "Node"];
@@ -3867,7 +3768,6 @@ const allGenres = books.flatMap(book => book.genres);
 // // Article title is lost because we overwrite element content.
 // article.innerHTML += htmlString;
 
-
 /*----------------------------------Метод insertAdjacentHTML()-------------------------------*/
 
 // const list = document.querySelector(".list");
@@ -3881,16 +3781,14 @@ const allGenres = books.flatMap(book => book.genres);
 // list.insertAdjacentHTML("beforebegin", "<h2>Popular technologies</h2>");
 // // "beforebegin" и "afterend" работают только в том случае, если elem уже находится в DOM-дереве.
 
-
 // function isIsogram(str){
-  
+
 //   let isogramma = str.split('').filter((st, index, array) =>
 //     array.indexOf(st) === index);
-  
 
 //   // for (let i = 0; i < str.length; i += 1) {
 //   //   if
-    
+
 //   // }
 //   return isogramma;
 // }
@@ -3907,12 +3805,12 @@ const allGenres = books.flatMap(book => book.genres);
 //       if (str[i] === vowelsAll[j]) (
 //         vowelsCount.push(str[i])
 //       );
-      
+
 //     }
-    
+
 //   }
 //   return vowelsCount.length;
-  
+
 // }
 
 // console.log(getCount("Javascript"));
@@ -3920,10 +3818,10 @@ const allGenres = books.flatMap(book => book.genres);
 // console.log(getCount("aghsabqoaaaii"));
 
 // function removeSmallest(numbers) {
-  
+
 //   numbers.filter((it) => it !== Math.min.apply(null, numbers));
 //   return throw "TODO: removeSmallest";
-  
+
 // }
 
 // console.log(removeSmallest([1, 2, 4, 1, 10, 3]));
@@ -3985,16 +3883,15 @@ const allGenres = books.flatMap(book => book.genres);
 // const inputText = document.querySelector('#name-input');
 // const spanRewriteText = document.querySelector('#name-output');
 
-
 // inputText.addEventListener('input', addNewInput);
 
 // function addNewInput(event) {
 //   console.log('event :',event);
 // };
 
-/** объект, 3 ключа name, cardname, total 
+/** объект, 3 ключа name, cardname, total
  * 3 metod totalsum(), add(), writeOf()
-*/
+ */
 
 // const bank = {
 //   name: 'Jordj',
@@ -4014,7 +3911,6 @@ const allGenres = books.flatMap(book => book.genres);
 // };
 
 // bank.totalSum ();
-
 
 // const Den = {
 //     name: 'Den',
@@ -4057,7 +3953,6 @@ const allGenres = books.flatMap(book => book.genres);
 //     qty: 1,
 //   }
 // ]
-
 
 // for (let i = 0; i < products.length; i += 1) {
 //   const firstElement = products[i];
@@ -4113,48 +4008,50 @@ const allGenres = books.flatMap(book => book.genres);
 // const sliserin = hogvarts['sliserin'];
 // console.log(griffindor);
 
+// const colorPalette = document.querySelector(".color-palette");
+// const output = document.querySelector(".output");
 
+// colorPalette.addEventListener("click", selectColor);
 
-const colorPalette = document.querySelector(".color-palette");
-const output = document.querySelector(".output");
+// // This is where delegation «magic» happens
+// function selectColor(event) {
+//   console.log(event);
+//   if (event.target.nodeName !== "BUTTON") {
+//     return;
+//   }
 
-colorPalette.addEventListener("click", selectColor);
+//   const selectedColor = event.target.dataset.color;
+//   output.textContent = `Selected color: ${selectedColor}`;
+//   output.style.color = selectedColor;
+// }
 
-// This is where delegation «magic» happens
-function selectColor(event) {
-  console.log(event);
-  if (event.target.nodeName !== "BUTTON") {
-    return;
-  }
+// // Some helper functions to render palette items
+// createPaletteItems();
 
-  const selectedColor = event.target.dataset.color;
-  output.textContent = `Selected color: ${selectedColor}`;
-  output.style.color = selectedColor;
-}
+// function createPaletteItems() {
+//   const items = [];
+//   for (let i = 0; i < 60; i++) {
+//     const color = getRangomColor();
+//     const item = document.createElement("button");
+//     item.type = "button";
+//     item.dataset.color = color;
+//     item.style.backgroundColor = color;
+//     item.classList.add("item");
+//     items.push(item);
+//   }
+//   colorPalette.append(...items);
+// }
 
-// Some helper functions to render palette items
-createPaletteItems();
+// function getRangomColor() {
+//   return `#${getRandomHex()}${getRandomHex()}${getRandomHex()}`;
+// }
 
-function createPaletteItems() {
-  const items = [];
-  for (let i = 0; i < 60; i++) {
-    const color = getRangomColor();
-    const item = document.createElement("button");
-    item.type = "button";
-    item.dataset.color = color;
-    item.style.backgroundColor = color;
-    item.classList.add("item");
-    items.push(item);
-  }
-  colorPalette.append(...items);
-}
+// function getRandomHex() {
+//   return Math.round(Math.random() * 256)
+//     .toString(16)
+//     .padStart(2, "0");
+// }
 
-function getRangomColor() {
-  return `#${getRandomHex()}${getRandomHex()}${getRandomHex()}`;
-}
+console.log(HelloMonkey);
 
-function getRandomHex() {
-  return Math.round(Math.random() * 256)
-    .toString(16)
-    .padStart(2, "0");
-}
+const a;
