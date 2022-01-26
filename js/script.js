@@ -4051,7 +4051,7 @@
 //     .toString(16)
 //     .padStart(2, "0");
 // }
+const Joi = require("joi");
 
-console.log(HelloMonkey);
-
-const a;
+const passwordShema = Joi.string().min(4).max(11).alphanum();
+console.log(passwordShema.validate("waadada"));

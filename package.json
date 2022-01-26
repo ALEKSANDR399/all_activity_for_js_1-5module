@@ -1,0 +1,30 @@
+{
+  "name": "all_activity_for_js_1-5module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALEKSANDR399/all_activity_for_js_1-5module.git"
+  },
+  "keywords": [],
+  "author": "DEMENTOR <cloud2265@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALEKSANDR399/all_activity_for_js_1-5module/issues"
+  },
+  "homepage": "https://github.com/ALEKSANDR399/all_activity_for_js_1-5module#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
